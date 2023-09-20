@@ -1,7 +1,6 @@
 tellraw @a {"text":"Reloading MIMA Datapack!"}
 scoreboard objectives add calc dummy
 scoreboard objectives add mima dummy
-scoreboard objectives add menus dummy
 
 scoreboard players set #2 calc 2
 scoreboard players set #16 calc 16
