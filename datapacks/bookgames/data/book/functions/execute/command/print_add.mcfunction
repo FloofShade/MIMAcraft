@@ -1,0 +1,1 @@
+$data modify storage bookgames:mima tech.print.buffer set value "$(buffer)$(temp)"

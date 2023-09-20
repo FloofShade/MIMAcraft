@@ -1,0 +1,1 @@
+$data modify storage bookgames:mima mima.memory.$(score) set from storage bookgames:mima tech.command.value

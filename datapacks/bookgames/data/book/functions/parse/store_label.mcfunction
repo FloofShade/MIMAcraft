@@ -1,0 +1,1 @@
+$data modify storage bookgames:mima lookup.labels.$(label) set value $(score)

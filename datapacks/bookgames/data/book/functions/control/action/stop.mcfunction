@@ -1,0 +1,1 @@
+scoreboard players set execute mima 0

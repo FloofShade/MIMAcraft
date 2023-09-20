@@ -1,0 +1,1 @@
+$data modify storage bookgames:mima temp set value $(text)

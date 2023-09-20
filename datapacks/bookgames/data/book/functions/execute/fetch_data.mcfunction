@@ -1,0 +1,1 @@
+$execute store result score number calc run data get storage bookgames:mima mima.memory.$(score)

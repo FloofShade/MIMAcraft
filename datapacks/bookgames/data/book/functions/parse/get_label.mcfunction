@@ -1,0 +1,2 @@
+$execute store result score number calc run data get storage bookgames:mima lookup.labels.$(label)
+$execute unless data storage bookgames:mima lookup.labels.$(label) run tellraw @a [{"text":"ERROR: Given name ","color":"red"},{"text":"$(label)","color":"aqua"},{"text":" is not a defined label.","color":"red"}," (Line: ",{"score":{"name":"i","objective":"calc"}},")"]

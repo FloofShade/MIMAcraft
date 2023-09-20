@@ -1,0 +1,2 @@
+execute store success score result calc run data get storage bookgames:mima tech.makro[-1].array[0]
+execute if score result calc matches 1 run function book:array/execute with storage bookgames:mima tech.makro[-1].for_array
