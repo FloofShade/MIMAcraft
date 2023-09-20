@@ -12,6 +12,8 @@ scoreboard players set #2^24 calc 16777216
 #steps
 scoreboard players set #steps calc 20
 scoreboard players set #maxSteps calc 100
+#area
+scoreboard players set #area calc 0
 #gamerules
 gamerule doMobSpawning false
 

@@ -1,6 +1,7 @@
 kill @e[type=interaction]
 kill @e[type=text_display]
-
+#textedit
+summon text_display ~ ~-50 ~ {Tags:["textedit"]}
 #main menu
 summon text_display 9 3 16 {Tags:["main_menu"],background:-16777216,Passengers:[{Tags:["parse_run"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]},text:'{"text":"Parse and Run"}'}
 summon text_display 9 2 16 {Tags:["main_menu"],background:-16777216,text:'{"text":"Parse"}',Passengers:[{Tags:["load_book"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
@@ -26,4 +27,12 @@ summon text_display 5.6 -18 15.7 {Tags:["debug_menu"],text:'{"text":"++"}',backg
 
 summon text_display 3 -17 16 {Tags:["debug_menu"],text:'{"text":"Help"}',background:-16777216,Passengers:[{Tags:["control/action/help"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
 
-#other
+#area
+summon text_display -1 3 17 {Tags:["area_menu"],text:'{"text":"Current Test Area"}',transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
+summon text_display -0.1 2 16.7 {Tags:["area_menu"],text:'{"text":"-"}',background:-16777216,Passengers:[{Tags:["control/action/prev_area"],id:"minecraft:interaction",width:0.3,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-0.2f],scale:[1f,1f,1f]}}
+summon text_display -1 2 17 {Tags:["area_menu","areaCounter"],text:'{"score":{"name":"#area","objective":"calc"}}}',transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
+summon text_display -0.9 2 16.7 {Tags:["area_menu"],text:'{"text":"+"}',background:-16777216,Passengers:[{Tags:["control/action/next_area"],id:"minecraft:interaction",width:0.3,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-0.2f],scale:[1f,1f,1f]}}
+
+
+summon text_display -3 3 17 {Tags:["area_menu"],text:'{"text":"Save"}',background:-16777216,Passengers:[{Tags:["control/action/save_area"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
+summon text_display -3 2 17 {Tags:["area_menu"],text:'{"text":"Load"}',background:-16777216,Passengers:[{Tags:["control/action/load_area"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}

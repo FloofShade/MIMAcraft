@@ -1,0 +1,1 @@
+$data modify block ~ ~ ~ name set value "minecraft:$(score)"
