@@ -5,6 +5,8 @@ execute if score result calc matches 2 run scoreboard players set max calc 65535
 execute if score result calc matches 1..2 run scoreboard players set min calc 0
 execute if score result calc matches 3 run scoreboard players set max calc 8388607
 execute if score result calc matches 3 run scoreboard players set min calc -8388608
+execute if score result calc matches 4 run scoreboard players set max calc 5
+execute if score result calc matches 4 run scoreboard players set min calc 0
 execute if score result calc matches 1.. run function book:parse/number
 
 function book:parse/store_command with storage bookgames:mima tech.memloc

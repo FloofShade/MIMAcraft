@@ -55,6 +55,12 @@ data modify storage bookgames:mima lookup.command.NOT set value {"value":-983040
 data modify storage bookgames:mima lookup.command.RAR set value {"value":-917504,"arg":0b}
 data modify storage bookgames:mima lookup.command.PRINT set value {"value":-851968,"arg":0b}
 
+data modify storage bookgames:mima lookup.command.BRR set value {"value":-786432,"arg":0b}
+data modify storage bookgames:mima lookup.command.BGET set value {"value":-720896,"arg":0b}
+data modify storage bookgames:mima lookup.command.BBREAK set value {"value":-655360,"arg":4b}
+data modify storage bookgames:mima lookup.command.BPLACE set value {"value":-589824,"arg":4b}
+data modify storage bookgames:mima lookup.command.BMOVE set value {"value":-524288,"arg":4b}
+
 data modify storage bookgames:mima lookup.op.0 set value {"function":"book:execute/command/ldc","flow":0b,"value":0}
 data modify storage bookgames:mima lookup.op.1 set value {"function":"book:execute/command/ldv","flow":0b,"value":1048576}
 data modify storage bookgames:mima lookup.op.2 set value {"function":"book:execute/command/stv","flow":0b,"value":2097152}
@@ -74,6 +80,12 @@ data modify storage bookgames:mima lookup.op.240 set value {"function":"book:exe
 data modify storage bookgames:mima lookup.op.241 set value {"function":"book:execute/command/not","flow":0b,"value":15794176}
 data modify storage bookgames:mima lookup.op.242 set value {"function":"book:execute/command/rar","flow":0b,"value":15859712}
 data modify storage bookgames:mima lookup.op.243 set value {"function":"book:execute/command/print","flow":0b,"value":15925248}
+#bot commands
+data modify storage bookgames:mima lookup.op.244 set value {"function":"book:execute/command/brr","flow":0b,"value":15990784}
+data modify storage bookgames:mima lookup.op.245 set value {"function":"book:execute/command/bget","flow":0b,"value":16056320}
+data modify storage bookgames:mima lookup.op.246 set value {"function":"book:execute/command/bbreak","flow":0b,"value":16121856}
+data modify storage bookgames:mima lookup.op.247 set value {"function":"book:execute/command/bplace","flow":0b,"value":16187392}
+data modify storage bookgames:mima lookup.op.248 set value {"function":"book:execute/command/bmove","flow":0b,"value":16252928}
 
 # ascii table
 data modify storage bookgames:mima lookup.ascii.32 set value " "
