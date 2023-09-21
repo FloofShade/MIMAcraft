@@ -1,5 +1,6 @@
 kill @e[type=interaction]
 kill @e[type=text_display]
+scoreboard players set @a left 0
 #textedit
 summon text_display ~ ~-50 ~ {Tags:["textedit"]}
 #main menu

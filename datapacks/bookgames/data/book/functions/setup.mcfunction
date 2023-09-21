@@ -182,8 +182,8 @@ data modify storage bookgames:mima lookup.ascii.124 set value "|"
 data modify storage bookgames:mima lookup.ascii.125 set value "}"
 data modify storage bookgames:mima lookup.ascii.126 set value "~"
 
-#interaction displays
-function book:interaction_displays
+#relog reload
+scoreboard objectives add left minecraft.custom:minecraft.leave_game
 
 
 
