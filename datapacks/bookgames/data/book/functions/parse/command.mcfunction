@@ -7,7 +7,11 @@ execute if score result calc matches 3 run scoreboard players set max calc 83886
 execute if score result calc matches 3 run scoreboard players set min calc -8388608
 execute if score result calc matches 4 run scoreboard players set max calc 5
 execute if score result calc matches 4 run scoreboard players set min calc 0
+execute unless score result calc matches 1.. run data modify storage bookgames:debug line.arg set value ""
 execute if score result calc matches 1.. run function book:parse/number
+#debug no arg and add line
+execute store result storage bookgames:debug line.number int 1 run scoreboard players get i calc
+function book:debug/store_line with storage bookgames:debug line
 
 function book:parse/store_command with storage bookgames:mima tech.memloc
 
