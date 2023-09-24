@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Hard Challenges",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Complete all hard challenges to unlock."
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "book:root"
+}
