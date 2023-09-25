@@ -6,7 +6,7 @@ execute if score #linebreak calc matches 0 run function book:interaction_display
 execute if score #linebreak calc matches 0 run scoreboard players set #linebreak calc 1
 
 #interaction displays
-execute as @a[limit=1] unless score @s left matches 0 run function book:interaction_displays
+execute as @a[limit=1] unless score @s left matches 0 run function book:setup
 #interactions
 execute as @e[tag=clicked,type=text_display] run function book:control/button_released
 execute as @e[type=interaction] at @s on target run tag @s add clicker

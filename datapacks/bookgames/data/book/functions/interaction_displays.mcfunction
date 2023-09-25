@@ -10,12 +10,12 @@ summon text_display 9 2 16 {Tags:["main_menu"],background:-16777216,text:'{"text
 summon text_display 6 4 16 {Tags:["main_menu"],text:'{"text":"Open Debug Menu"}',background:-16777216,Passengers:[{Tags:["control/action/display_debug"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
 
 summon text_display 3 3 16 {Tags:["main_menu"],text:'{"text":"Stop"}',background:-16777216,Passengers:[{Tags:["control/action/stop"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
-summon text_display 3 2 16 {Tags:["both_menu"],text:'{"text":"Run"}',background:-16777216,Passengers:[{Tags:["run"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
+summon text_display 3 2 16 {Tags:["main_menu"],text:'{"text":"Run"}',background:-16777216,Passengers:[{Tags:["run"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
 
 #debug menu
 
 summon text_display 9 -17 16 {Tags:["debug_menu"],text:'{"text":"Step Forward"}',background:-16777216,Passengers:[{Tags:["control/action/step_forward"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
-summon text_display 9 -18 16 {Tags:["debug_menu"],text:'{"text":"Show Memory"}',background:-16777216,Passengers:[{Tags:["control/action/show_memory"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
+summon text_display 9 -18 16 {Tags:["debug_menu"],text:'{"text":"Run"}',background:-16777216,Passengers:[{Tags:["run"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
 
 summon text_display 6 -16 16 {Tags:["debug_menu"],text:'{"text":"Open Main Menu"}',background:-16777216,Passengers:[{Tags:["control/action/display_main"],id:"minecraft:interaction",width:2,height:0.5}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
 
