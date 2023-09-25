@@ -53,6 +53,7 @@ data modify storage bookgames:mima lookup.command.JIND set value {"value":136314
 data modify storage bookgames:mima lookup.command.HALT set value {"value":-1048576,"arg":0b}
 data modify storage bookgames:mima lookup.command.NOT set value {"value":-983040,"arg":0b}
 data modify storage bookgames:mima lookup.command.RAR set value {"value":-917504,"arg":0b}
+
 data modify storage bookgames:mima lookup.command.PRINT set value {"value":-851968,"arg":0b}
 
 data modify storage bookgames:mima lookup.command.BRR set value {"value":-786432,"arg":0b}
