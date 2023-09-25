@@ -14,6 +14,10 @@ scoreboard players set #steps calc 20
 scoreboard players set #maxSteps calc 100
 #area
 scoreboard players set #area calc 0
+#challenges
+scoreboard players set #challenge calc 1
+scoreboard players set #max_challenge calc 25
+function book:challenge/setup
 #gamerules
 gamerule doMobSpawning false
 

@@ -2,6 +2,7 @@ execute if score execute mima matches 1 run function book:execute/step
 
 execute if score #linebreak calc matches 0 run data modify storage bookgames:mima lookup.linebreak set from block ~ -50 ~ Items[{Slot:0b}].tag.pages[0]
 execute if score #linebreak calc matches 0 run data modify storage bookgames:mima lookup.ascii.10 set from storage bookgames:mima lookup.linebreak
+execute if score #linebreak calc matches 0 run function book:interaction_displays
 execute if score #linebreak calc matches 0 run scoreboard players set #linebreak calc 1
 
 #interaction displays

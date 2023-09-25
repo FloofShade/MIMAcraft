@@ -2,7 +2,7 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "The Most Basic Program"
+            "text": "The Most Simple Program"
         },
         "description": {
             "text": "Create a program that properly stops using the HALT command."
