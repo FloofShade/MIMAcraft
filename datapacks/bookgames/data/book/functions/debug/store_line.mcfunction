@@ -1,1 +1,0 @@
-$data modify storage bookgames:debug lines append value "Line: $(number) | $(command) $(arg)"
