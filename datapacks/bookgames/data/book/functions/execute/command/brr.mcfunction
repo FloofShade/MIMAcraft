@@ -1,1 +1,1 @@
-say bot command
+execute as @e[type=minecraft:armor_stand,tag=mima_bot] at @s run tp @s ~ ~ ~ ~90 ~

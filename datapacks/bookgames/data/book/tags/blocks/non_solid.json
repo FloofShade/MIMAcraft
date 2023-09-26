@@ -1,0 +1,12 @@
+{
+  "values": [
+    "#minecraft:saplings",
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "#minecraft:flowers",
+    "minecraft:air",
+    "minecraft:cave_air",
+    "#minecraft:cave_vines",
+    "minecraft:vine"
+  ]
+}

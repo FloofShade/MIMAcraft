@@ -14,3 +14,8 @@ execute as @e[type=interaction] at @s on target run tag @e[type=text_display,sor
 execute as @e[tag=clicked,type=text_display] at @s run function book:control/button_pressed
 tag @a[tag=clicker] remove clicker
 
+#triggers
+execute as @a[scores={kill_bot=1..}] run function book:kill_bot
+
+scoreboard players enable @a show_mem
+scoreboard players enable @a kill_bot

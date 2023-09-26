@@ -9,6 +9,10 @@ scoreboard players set #2^20 calc 1048576
 scoreboard players set #2^23 calc 8388608
 scoreboard players set #2^24 calc 16777216
 
+#triggers
+scoreboard objectives add show_mem trigger
+scoreboard objectives add kill_bot trigger
+
 #steps
 scoreboard players set #steps calc 20
 scoreboard players set #maxSteps calc 100
@@ -61,8 +65,8 @@ data modify storage bookgames:mima lookup.command.RAR set value {"value":-917504
 data modify storage bookgames:mima lookup.command.PRINT set value {"value":-851968,"arg":0b}
 
 data modify storage bookgames:mima lookup.command.BRR set value {"value":-786432,"arg":0b}
-data modify storage bookgames:mima lookup.command.BGET set value {"value":-720896,"arg":0b}
-data modify storage bookgames:mima lookup.command.BBREAK set value {"value":-655360,"arg":4b}
+data modify storage bookgames:mima lookup.command.BGET set value {"value":-720896,"arg":4b}
+data modify storage bookgames:mima lookup.command.BMINE set value {"value":-655360,"arg":4b}
 data modify storage bookgames:mima lookup.command.BPLACE set value {"value":-589824,"arg":4b}
 data modify storage bookgames:mima lookup.command.BMOVE set value {"value":-524288,"arg":4b}
 
