@@ -24,6 +24,9 @@ scoreboard players set #max_challenge calc 25
 function book:challenge/setup
 #gamerules
 gamerule doMobSpawning false
+gamerule keepInventory true
+gamerule spawnRadius 0
+setworldspawn 6 1 -1 0
 
 #line break magic
 setblock ~ -50 ~ chest
@@ -205,6 +208,50 @@ data modify storage bookgames:mima lookup.ascii.126 set value "~"
 
 #relog reload
 scoreboard objectives add left minecraft.custom:minecraft.leave_game
+
+#hex to dec
+data modify storage bookgames:mima lookup.hex_to_dec.0 set value 0
+data modify storage bookgames:mima lookup.hex_to_dec.1 set value 1
+data modify storage bookgames:mima lookup.hex_to_dec.2 set value 2
+data modify storage bookgames:mima lookup.hex_to_dec.3 set value 3
+data modify storage bookgames:mima lookup.hex_to_dec.4 set value 4
+data modify storage bookgames:mima lookup.hex_to_dec.5 set value 5
+data modify storage bookgames:mima lookup.hex_to_dec.6 set value 6
+data modify storage bookgames:mima lookup.hex_to_dec.7 set value 7
+data modify storage bookgames:mima lookup.hex_to_dec.8 set value 8
+data modify storage bookgames:mima lookup.hex_to_dec.9 set value 9
+data modify storage bookgames:mima lookup.hex_to_dec.A set value 10
+data modify storage bookgames:mima lookup.hex_to_dec.a set value 10
+data modify storage bookgames:mima lookup.hex_to_dec.B set value 11
+data modify storage bookgames:mima lookup.hex_to_dec.b set value 11
+data modify storage bookgames:mima lookup.hex_to_dec.C set value 12
+data modify storage bookgames:mima lookup.hex_to_dec.c set value 12
+data modify storage bookgames:mima lookup.hex_to_dec.D set value 13
+data modify storage bookgames:mima lookup.hex_to_dec.d set value 13
+data modify storage bookgames:mima lookup.hex_to_dec.E set value 14
+data modify storage bookgames:mima lookup.hex_to_dec.e set value 14
+data modify storage bookgames:mima lookup.hex_to_dec.F set value 15
+data modify storage bookgames:mima lookup.hex_to_dec.f set value 15
+#dec to hex
+data modify storage bookgames:mima lookup.dec_to_hex.0 set value 0
+data modify storage bookgames:mima lookup.dec_to_hex.1 set value 1
+data modify storage bookgames:mima lookup.dec_to_hex.2 set value 2
+data modify storage bookgames:mima lookup.dec_to_hex.3 set value 3
+data modify storage bookgames:mima lookup.dec_to_hex.4 set value 4
+data modify storage bookgames:mima lookup.dec_to_hex.5 set value 5
+data modify storage bookgames:mima lookup.dec_to_hex.6 set value 6
+data modify storage bookgames:mima lookup.dec_to_hex.7 set value 7
+data modify storage bookgames:mima lookup.dec_to_hex.8 set value 8
+data modify storage bookgames:mima lookup.dec_to_hex.9 set value 9
+data modify storage bookgames:mima lookup.dec_to_hex.10 set value "A"
+data modify storage bookgames:mima lookup.dec_to_hex.11 set value "B"
+data modify storage bookgames:mima lookup.dec_to_hex.12 set value "C"
+data modify storage bookgames:mima lookup.dec_to_hex.13 set value "D"
+data modify storage bookgames:mima lookup.dec_to_hex.14 set value "E"
+data modify storage bookgames:mima lookup.dec_to_hex.15 set value "F"
+
+
+
 
 
 
