@@ -6,6 +6,7 @@ data modify storage bookgames:debug lines set value []
 scoreboard players set execute mima 0
 scoreboard players set IAR mima 0
 scoreboard players set ACC mima 0
+scoreboard players set IR mima 0
 tellraw @a {"text":"\n\n\n\n\n\n\n\n"}
 function book:load/split_pages with entity @s SelectedItem.tag
 scoreboard players set i calc 0
