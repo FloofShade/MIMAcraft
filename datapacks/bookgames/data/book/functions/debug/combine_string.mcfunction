@@ -1,0 +1,1 @@
+$data modify storage bookgames:debug string.full set value "$(full)$(part)"

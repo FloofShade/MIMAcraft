@@ -19,7 +19,7 @@ execute as @a at @s if entity @s[y=-12,dy=6] run tp @s 6 1.00 0 0.0 0.0
 
 #triggers
 execute as @a[scores={kill_bot=1..}] run function book:kill_bot
-execute as @a[scores={show_mem=1..}] run function book:debug/show_mem
+execute as @a[scores={show_mem=0..}] run function book:debug/show_mem
 
 
 scoreboard players enable @a show_mem

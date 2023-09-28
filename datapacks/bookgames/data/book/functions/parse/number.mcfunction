@@ -3,6 +3,8 @@ data remove storage bookgames:mima tech.makro[-1].array[1]
 #parse numbers
 #decimal
 function book:parse/decimal with storage bookgames:mima tech.command
+#hex
+execute if score result calc matches 0 run function book:parse/hex with storage bookgames:mima tech.command
 #label
 execute if score result calc matches 0 run data modify storage bookgames:mima tech.memloc.label set from storage bookgames:mima tech.command.arg
 execute if score result calc matches 0 run function book:parse/get_label with storage bookgames:mima tech.memloc

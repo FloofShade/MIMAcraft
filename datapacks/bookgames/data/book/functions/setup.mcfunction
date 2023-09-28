@@ -11,6 +11,7 @@ scoreboard players set #2^24 calc 16777216
 
 #triggers
 scoreboard objectives add show_mem trigger
+scoreboard players set @a show_mem -1
 scoreboard objectives add kill_bot trigger
 
 #steps
@@ -26,6 +27,7 @@ function book:challenge/setup
 gamerule doMobSpawning false
 gamerule keepInventory true
 gamerule spawnRadius 0
+#gamerule sendCommandFeedback false
 setworldspawn 6 1 -1 0
 
 #line break magic
@@ -39,6 +41,7 @@ scoreboard players set execute mima 0
 data remove storage bookgames:mima lookup
 #number formats
 data modify storage bookgames:mima lookup.decimal set value "x"
+data modify storage bookgames:mima lookup.hex set value "0x"
 #labeling
 data modify storage bookgames:mima lookup.label set value ":"
 #commands
