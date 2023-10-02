@@ -76,6 +76,8 @@ data modify storage bookgames:mima lookup.command.BMINE set value {"value":-6553
 data modify storage bookgames:mima lookup.command.BPLACE set value {"value":-589824,"arg":4b}
 data modify storage bookgames:mima lookup.command.BMOVE set value {"value":-524288,"arg":4b}
 
+data modify storage bookgames:mima lookup.command.BREAK set value {"value":-458752,"arg":0b}
+
 data modify storage bookgames:mima lookup.op.0 set value {"function":"book:execute/command/ldc","flow":0b,"value":0,"name":"LDC",has_arg:1b}
 data modify storage bookgames:mima lookup.op.1 set value {"function":"book:execute/command/ldv","flow":0b,"value":1048576,"name":"LDV",has_arg:1b}
 data modify storage bookgames:mima lookup.op.2 set value {"function":"book:execute/command/stv","flow":0b,"value":2097152,"name":"STV",has_arg:1b}
@@ -101,6 +103,8 @@ data modify storage bookgames:mima lookup.op.245 set value {"function":"book:exe
 data modify storage bookgames:mima lookup.op.246 set value {"function":"book:execute/command/bmine","flow":0b,"value":16121856,"name":"BMINE",has_arg:1b}
 data modify storage bookgames:mima lookup.op.247 set value {"function":"book:execute/command/bplace","flow":0b,"value":16187392,"name":"BPLACE",has_arg:1b}
 data modify storage bookgames:mima lookup.op.248 set value {"function":"book:execute/command/bmove","flow":0b,"value":16252928,"name":"BMOVE",has_arg:1b}
+
+data modify storage bookgames:mima lookup.op.249 set value {"function":"book:execute/command/break","flow":0b,"value":16318464,"name":"BREAK",has_arg:0b}
 
 # ascii table
 data modify storage bookgames:mima lookup.ascii.32 set value " "
