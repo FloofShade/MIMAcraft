@@ -1,4 +1,5 @@
 $data modify storage bookgames:debug string.full set value "$(arg)"
+data modify storage bookgames:debug string.part set value ""
 data modify storage bookgames:debug string.part set string storage bookgames:debug string.full 0 2
 execute store result score result calc run data modify storage bookgames:debug string.part set from storage bookgames:mima lookup.hex
 execute if score result calc matches 1 run scoreboard players set result calc -1

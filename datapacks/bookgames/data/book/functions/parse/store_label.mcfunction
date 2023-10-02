@@ -1,1 +1,2 @@
-$data modify storage bookgames:mima lookup.labels.$(label) set value $(score)
+$execute if data storage bookgames:mima lookup.labels.$(label) run tellraw @a [{"text":"ERROR: Given label ","color":"red"},{"text":"$(label) ","color":"aqua"},{"text":"already exists. (Line: ","color":"red"},{"score":{"name":"i","objective":"calc"}},{"text":")","color":"red"}]
+$execute unless data storage bookgames:mima lookup.labels.$(label) run data modify storage bookgames:mima lookup.labels.$(label) set value $(score)
