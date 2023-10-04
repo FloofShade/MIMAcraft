@@ -1,3 +1,4 @@
+execute if score #try_challenge mima matches 1.. run scoreboard players remove #try_challenge mima 1
 data modify storage bookgames:mima mima set value {memory:{}}
 data modify storage bookgames:mima lookup.labels set value {}
 data modify storage bookgames:mima tech.execute set value {}
@@ -7,7 +8,7 @@ scoreboard players set execute mima 0
 scoreboard players set IAR mima 0
 scoreboard players set ACC mima 0
 scoreboard players set IR mima 0
-tellraw @a {"text":"\n\n\n\n\n\n\n\n"}
+tellraw @a {"text":"\n---","color":"gray"}
 function book:load/split_pages with entity @s SelectedItem.tag
 scoreboard players set i calc 0
 function book:for_array {"function":"book:parse/find_labels","path":"tech.codewords"}

@@ -40,6 +40,7 @@ summon text_display -3 2 17 {Tags:["area_menu"],text:'{"text":"Load"}',backgroun
 
 #challenges
 scoreboard players set #challenge calc 1
+data modify storage bookgames:challenge challenge set from storage bookgames:challenge challenges[0]
 summon text_display 16 4.5 17 {Tags:["challenge_menu","challenge_counter"],text:'[{"score":{"name":"#challenge","objective":"calc"}},{"text":"/"},{"score":{"name":"#max_challenge","objective":"calc"}}]',background:1677721600,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
 summon text_display 16 4 17 {Tags:["challenge_menu","challenge_name"],text:'{"text":"Challenge: The Most Simple Program","color":"green"}',background:1677721600,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
 summon text_display 16 3 17 {Tags:["challenge_menu","challenge_difficulty"],text:'{"text":"Easy","color":"aqua"}',background:1677721600,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,1f,0f,0f],translation:[0f,0.1f,-1f],scale:[1f,1f,1f]}}
