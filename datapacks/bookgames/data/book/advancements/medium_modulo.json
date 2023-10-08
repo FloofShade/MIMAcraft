@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "The Most Simple Program"
+            "text": "Modulo!"
         },
         "description": {
-            "text": "Create a program that properly stops using the HALT command."
+            "text": "Calculate x mod y."
         },
         "icon": {
-            "item": "minecraft:paper"
+            "item": "minecraft:cobblestone"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,5 +19,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "book:easy_challenges"
+    "parent": "book:medium_divide"
 }

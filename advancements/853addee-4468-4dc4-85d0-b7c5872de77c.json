@@ -343,7 +343,19 @@
   },
   "book:easy_halt": {
     "criteria": {
-      "impossible": "2023-10-04 11:09:12 +0200"
+      "impossible": "2023-10-08 13:30:18 +0200"
+    },
+    "done": true
+  },
+  "book:hard_end": {
+    "criteria": {
+      "location": "2023-10-08 15:04:04 +0200"
+    },
+    "done": true
+  },
+  "book:medium_end": {
+    "criteria": {
+      "location": "2023-10-08 15:04:04 +0200"
     },
     "done": true
   },

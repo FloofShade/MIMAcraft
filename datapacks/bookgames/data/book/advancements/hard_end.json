@@ -20,5 +20,5 @@
             "trigger": "minecraft:location"
         }
     },
-    "parent":"book:easy_numbers_letters"
+    "parent":"book:hard_sort_array"
 }

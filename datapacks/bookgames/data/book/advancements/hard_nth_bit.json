@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "The Most Simple Program"
+            "text": "Just One Bit!"
         },
         "description": {
-            "text": "Create a program that properly stops using the HALT command."
+            "text": "Write a subroutine that lets you get the nth bit of a number."
         },
         "icon": {
-            "item": "minecraft:paper"
+            "item": "minecraft:stone_button"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,5 +19,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "book:easy_challenges"
+    "parent": "book:hard_print_number"
 }

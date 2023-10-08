@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "The Most Simple Program"
+            "text": "The Fibonacci Sequence"
         },
         "description": {
-            "text": "Create a program that properly stops using the HALT command."
+            "text": "Print out the first few values of the Fibonacci sequence."
         },
         "icon": {
-            "item": "minecraft:paper"
+            "item": "minecraft:sugar_cane"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,5 +19,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "book:easy_challenges"
+    "parent": "book:medium_abcs"
 }

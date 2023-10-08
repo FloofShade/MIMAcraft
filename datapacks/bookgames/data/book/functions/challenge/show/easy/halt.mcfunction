@@ -1,0 +1,2 @@
+tellraw @a [{"text":"---\n","color":"gray"},{"text":"The Simplest Program","color":"gold"}]
+tellraw @a [{"text":"For each MIMA program to correctly end the last run command needs to be the ","color":"gray"},{"text":"HALT ","color":"gold"},{"text":"command.\nIt completely stops the execution.\nTo complete this challenge run code that correctly ends by writing ","color":"gray"},{"text":"HALT ","color":"gold"},{"text":"in a new code book and click §6Try Challenge §7while holding it in the mainhand!","color":"gray"}]

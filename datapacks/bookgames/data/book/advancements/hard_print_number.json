@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
             "text": "I see numbers!"
@@ -8,7 +7,7 @@
             "text": "Decode a number to ASCII and print it in chat."
         },
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:warped_sign"
         },
         "frame": "task",
         "show_toast": true,

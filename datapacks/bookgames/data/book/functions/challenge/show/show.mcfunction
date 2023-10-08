@@ -1,0 +1,1 @@
+$function book:challenge/show/$(label)

@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
             "text": "Negativity"
@@ -8,7 +7,7 @@
             "text": "Load a negative number into the ACC."
         },
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:rotten_flesh"
         },
         "frame": "task",
         "show_toast": true,

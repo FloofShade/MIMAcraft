@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
             "text": "The Answer"
@@ -8,7 +7,7 @@
             "text": "Load the number 42 into the ACC."
         },
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:wooden_pickaxe"
         },
         "frame": "task",
         "show_toast": true,

@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "The Most Simple Program"
+            "text": "Put This There!"
         },
         "description": {
-            "text": "Create a program that properly stops using the HALT command."
+            "text": "Copy a value from one position to another."
         },
         "icon": {
-            "item": "minecraft:paper"
+            "item": "minecraft:pink_shulker_box"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,5 +19,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "book:easy_challenges"
+    "parent": "book:easy_is_equal"
 }
