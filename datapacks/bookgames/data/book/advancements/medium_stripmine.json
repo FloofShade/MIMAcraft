@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Automated Mining"
+        },
+        "description": {
+            "text": "Make the robot mine a 1x2 tunnel."
+        },
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "book:medium_build_heart"
+}

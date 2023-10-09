@@ -17,9 +17,12 @@ data modify storage bookgames:challenge challenges append value {"name":"Multipl
 data modify storage bookgames:challenge challenges append value {"name":"Halved","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/divide_two","code":[]}
 data modify storage bookgames:challenge challenges append value {"name":"Divided!","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/divide","code":[]}
 data modify storage bookgames:challenge challenges append value {"name":"Modulo!","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/mod","code":[]}
+data modify storage bookgames:challenge challenges append value {"name":"Feeling Loved","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/build_heart","code":[]}
+data modify storage bookgames:challenge challenges append value {"name":"Automated Mining","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/stripmine","code":[]}
 #hard
 data modify storage bookgames:challenge challenges append value {"name":"Printing Numbers","difficulty":'{"text":"Hard","color":"dark_purple"}',"location":"hard/print_numbers","code":[]}
 data modify storage bookgames:challenge challenges append value {"name":"Just One Bit","difficulty":'{"text":"Hard","color":"dark_purple"}',"location":"hard/nth_bit","code":[]}
 data modify storage bookgames:challenge challenges append value {"name":"Sorting Numbers","difficulty":'{"text":"Hard","color":"dark_purple"}',"location":"hard/sort_array","code":[]}
+data modify storage bookgames:challenge challenges append value {"name":"Follow The Line","difficulty":'{"text":"Hard","color":"dark_purple"}',"location":"hard/follow_line","code":[]}
 
 

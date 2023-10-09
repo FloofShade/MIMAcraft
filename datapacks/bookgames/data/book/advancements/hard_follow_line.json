@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Follow The Line"
+        },
+        "description": {
+            "text": "Make the robot follow a line below it."
+        },
+        "icon": {
+            "item": "minecraft:lead"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "book:hard_sort_array"
+}

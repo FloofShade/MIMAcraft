@@ -20,5 +20,5 @@
             "trigger": "minecraft:location"
         }
     },
-    "parent":"book:medium_modulo"
+    "parent":"book:medium_stripmine"
 }

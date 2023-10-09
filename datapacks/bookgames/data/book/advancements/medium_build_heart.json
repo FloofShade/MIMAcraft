@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Feeling Loved"
+        },
+        "description": {
+            "text": "Make the robot build a simple heart."
+        },
+        "icon": {
+            "item": "minecraft:rose_bush"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "book:medium_modulo"
+}

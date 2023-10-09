@@ -20,5 +20,5 @@
             "trigger": "minecraft:location"
         }
     },
-    "parent":"book:hard_sort_array"
+    "parent":"book:hard_follow_line"
 }
