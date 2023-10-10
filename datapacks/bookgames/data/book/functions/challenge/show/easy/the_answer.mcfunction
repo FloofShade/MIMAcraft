@@ -1,0 +1,2 @@
+tellraw @a [{"text":"---\n","color":"gray"},{"text":"The Answer","color":"gold"}]
+tellraw @a {"text":"Time to do a bit more!\n The ACC (accumulator) represents the main / work register of the MIMA and is used in most commands. The command §6LDC [number]§f loads a positive §620 Bit§f constant into the ACC. §6[number]§f can be either in decimal or in hexadecimal notation.\n\n§6Examples§7\nLDC 120\nLDC 0xFF\n\n §fTry using the §6LDC§f command to load the number §642§f into the ACC.","color":"white"}

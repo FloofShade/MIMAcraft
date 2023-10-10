@@ -1,0 +1,1 @@
+$execute store result score #result calc run data get storage bookgames:challenge goal.array[$(index)]

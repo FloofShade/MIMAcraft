@@ -1,0 +1,2 @@
+tellraw @a [{"text":"---\n","color":"gray"},{"text":"More Negativity","color":"gold"}]
+tellraw @a {"text":"Since numbers are represented in §62's complement§f a number can be negated by using the §6NOT§f operator and then §6adding 1§f to the resulting number.\nThe §6NOT§f command applies the §6NOT§f operator to the §6ACC§f.\nThe §6ADD [mem address]§f command adds the value at that address to the §6ACC§f.\n\n§6Added Code§f\n§bone: §60 §f| §7DS 1\n§ba: §61 §f| §7DS [-100,100]\n§bstart: §62\n\n§fTry loading the value from label §6a§f and negate the value.","color":"white"}

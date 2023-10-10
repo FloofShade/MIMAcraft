@@ -1,0 +1,1 @@
+$data modify storage bookgames:challenge goal.array[$(index)] set value $(rng)

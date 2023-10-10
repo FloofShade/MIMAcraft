@@ -2,12 +2,12 @@ data modify storage bookgames:challenge challenges set value []
 #easy
 data modify storage bookgames:challenge challenges append value {"name":"The Simplest Program","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/halt","code":[]}
 data modify storage bookgames:challenge challenges append value {"name":"The Answer","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/the_answer","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Negativity","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/negativity","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Memory Management","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/memory_management","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"More Negativity","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/more_negativity","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Stay Positive","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/stay_positive","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Is It Equal?","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/is_equal","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Put This There!","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/put_there","code":[]}
+data modify storage bookgames:challenge challenges append value {"name":"Negativity","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/negativity","code":["DS","-42","start:"]}
+data modify storage bookgames:challenge challenges append value {"name":"Memory Management","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/memory_management","code":["a:","DS","0","b:","DS","0","start:"]}
+data modify storage bookgames:challenge challenges append value {"name":"More Negativity","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/more_negativity","code":["one:","DS","1","a:","DS","0","start:"]}
+data modify storage bookgames:challenge challenges append value {"name":"Stay Positive","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/stay_positive","code":["one:","DS","1","a:","DS","0","start:"]}
+data modify storage bookgames:challenge challenges append value {"name":"Is It Equal?","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/is_equal","code":["a:","DS","0","b:","DS","0","start:","JMS","is_equal","HALT"]}
+data modify storage bookgames:challenge challenges append value {"name":"Put This There!","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/put_there","code":["DS","1","DS","2","DS","3","DS","4","DS","5","DS","6","a:","DS","0","b:","DS","0","start:"]}
 data modify storage bookgames:challenge challenges append value {"name":"Numbers = Letters","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/numbers_letters","code":[]}
 #medium
 data modify storage bookgames:challenge challenges append value {"name":"ABCs","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/alphabet","code":[]}

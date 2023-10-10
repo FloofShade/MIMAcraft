@@ -2,6 +2,7 @@ tellraw @a {"text":"Reloading MIMA Datapack!"}
 scoreboard objectives add calc dummy
 scoreboard objectives add mima dummy
 
+scoreboard players set #-1 calc -1
 scoreboard players set #2 calc 2
 scoreboard players set #16 calc 16
 scoreboard players set #2^16 calc 65536
@@ -22,6 +23,7 @@ scoreboard players set #area calc 0
 #challenges
 scoreboard players set #challenge calc 1
 scoreboard players set #max_challenge calc 22
+scoreboard players set #tries calc 0
 function book:challenge/setup
 #gamerules
 gamerule doMobSpawning false

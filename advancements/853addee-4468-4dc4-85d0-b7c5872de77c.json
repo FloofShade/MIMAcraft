@@ -359,5 +359,59 @@
     },
     "done": true
   },
+  "book:easy_the_answer": {
+    "criteria": {
+      "impossible": "2023-10-10 13:37:20 +0200"
+    },
+    "done": true
+  },
+  "book:easy_load_negative": {
+    "criteria": {
+      "impossible": "2023-10-10 14:19:22 +0200"
+    },
+    "done": true
+  },
+  "book:easy_memory_management": {
+    "criteria": {
+      "impossible": "2023-10-10 14:47:39 +0200"
+    },
+    "done": true
+  },
+  "book:easy_more_negativity": {
+    "criteria": {
+      "impossible": "2023-10-10 16:14:40 +0200"
+    },
+    "done": true
+  },
+  "book:easy_stay_positive": {
+    "criteria": {
+      "impossible": "2023-10-10 16:48:15 +0200"
+    },
+    "done": true
+  },
+  "book:easy_is_equal": {
+    "criteria": {
+      "impossible": "2023-10-10 17:45:25 +0200"
+    },
+    "done": true
+  },
+  "book:easy_put_there": {
+    "criteria": {
+      "impossible": "2023-10-10 18:20:15 +0200"
+    },
+    "done": true
+  },
+  "book:easy_numbers_letters": {
+    "criteria": {
+      "impossible": "2023-10-10 18:38:54 +0200"
+    },
+    "done": true
+  },
+  "book:easy_challenges": {
+    "criteria": {
+      "impossible": "2023-10-10 18:47:03 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3578
 }

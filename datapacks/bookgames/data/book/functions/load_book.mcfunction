@@ -4,6 +4,7 @@ data modify storage bookgames:mima lookup.labels set value {}
 data modify storage bookgames:mima tech.execute set value {}
 data modify storage bookgames:mima tech.print set value {"buffer":"","temp":""}
 data modify storage bookgames:debug lines set value []
+data remove storage bookgames:debug line
 scoreboard players set execute mima 0
 scoreboard players set IAR mima 0
 scoreboard players set ACC mima 0
