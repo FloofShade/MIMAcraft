@@ -5,7 +5,8 @@ function book:execute/fetch_command with storage bookgames:mima tech.memloc
 function book:execute/decode4
 
 execute if score result calc matches 0 run function book:execute/decode8
-execute if score result calc matches 0 run tellraw @a [{"text":"ERROR: Decoding failed, read value ","color":"red"},{"score":{"name":"IR","objective":"mima"},"color":"aqua"}," does not correspond to any valid opcode. -skipping memory address"]
+execute if score result calc matches 0 run tellraw @a [{"text":"ERROR: Decoding failed, read value ","color":"red"},{"score":{"name":"IR","objective":"mima"},"color":"aqua"}," does not correspond to any valid opcode. -terminating execution"]
+execute if score result calc matches 0 run scoreboard players set execute mima 0
 execute if score result calc matches 1 run function book:execute/run_command with storage bookgames:mima tech.execute
 
 #increase IAR
