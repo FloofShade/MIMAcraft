@@ -19,5 +19,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "book:medium_halved"
+    "parent": "book:medium_multiplication"
 }

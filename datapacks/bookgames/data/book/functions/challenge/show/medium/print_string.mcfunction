@@ -1,0 +1,2 @@
+tellraw @a [{"text":"---\n","color":"gray"},{"text":"Print String","color":"gold"}]
+tellraw @a {"text":"There's a §6String§f in memory ready to be printed! Try printing all the values starting at address §6string§f up until you encounter a §6-1§f.\n\n§6Added Code§f\n§bstring: §60 §f| §7DS 72\n§61 §f| §7DS 101 or -1\n§62 §f| §7DS 108 or -1\n§63 §f| §7DS 108 or -1\n§64 §f| §7DS 111 or -1\n§65 §f| §7DS 33 or -1\n§66 §f| §7DS -1\n§bstart: §66","color":"white"}

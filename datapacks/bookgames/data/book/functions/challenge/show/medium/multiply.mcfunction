@@ -1,0 +1,2 @@
+tellraw @a [{"text":"---\n","color":"gray"},{"text":"Multiplied!","color":"gold"}]
+tellraw @a {"text":"§6Added Code§f\n§ba: §60 §f| §7DS [-10,10]\n§bb: §61 §f| §7DS [-10,10]\n§bstart: §62\n\n§fTry calculating §6a*b (Multiplication)§f.\n§cNOTE:§f The result should be in the §6ACC§f.","color":"white"}

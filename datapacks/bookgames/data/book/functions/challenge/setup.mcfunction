@@ -11,18 +11,17 @@ data modify storage bookgames:challenge challenges append value {"name":"Put Thi
 data modify storage bookgames:challenge challenges append value {"name":"Numbers = Letters","difficulty":'{"text":"Easy","color":"aqua"}',"location":"easy/numbers_letters","code":[]}
 #medium
 data modify storage bookgames:challenge challenges append value {"name":"ABCs","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/alphabet","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"The Fibonacci Sequence","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/fibonacci","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Print String","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/print_string","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Multiplied!","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/multiply","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Halved","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/divide_two","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Divided!","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/divide","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Modulo!","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/mod","code":[]}
+data modify storage bookgames:challenge challenges append value {"name":"The Fibonacci Sequence","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/fibonacci","code":["a:","DS","0","b:","DS","0","fib:","DS","0","DS","0","DS","0","DS","0","start:"]}
+data modify storage bookgames:challenge challenges append value {"name":"Print String","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/print_string","code":["string:","DS","72","DS","101","DS","108","DS","108","DS","111","DS","33","DS","-1","start:"]}
+data modify storage bookgames:challenge challenges append value {"name":"Multiplied!","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/multiply","code":["a:","DS","0","b:","DS","0","start:"]}
+data modify storage bookgames:challenge challenges append value {"name":"Divided!","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/divide","code":["a:","DS","0","b:","DS","0","start:"]}
+data modify storage bookgames:challenge challenges append value {"name":"Modulo!","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/mod","code":["a:","DS","0","b:","DS","0","start:"]}
 data modify storage bookgames:challenge challenges append value {"name":"Feeling Loved","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/build_heart","code":[]}
 data modify storage bookgames:challenge challenges append value {"name":"Automated Mining","difficulty":'{"text":"Medium","color":"red"}',"location":"medium/stripmine","code":[]}
 #hard
-data modify storage bookgames:challenge challenges append value {"name":"Printing Numbers","difficulty":'{"text":"Hard","color":"dark_purple"}',"location":"hard/print_numbers","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Just One Bit","difficulty":'{"text":"Hard","color":"dark_purple"}',"location":"hard/nth_bit","code":[]}
-data modify storage bookgames:challenge challenges append value {"name":"Sorting Numbers","difficulty":'{"text":"Hard","color":"dark_purple"}',"location":"hard/sort_array","code":[]}
+data modify storage bookgames:challenge challenges append value {"name":"Printing Numbers","difficulty":'{"text":"Hard","color":"dark_purple"}',"location":"hard/print_numbers","code":["a:","DS","0","start:"]}
+data modify storage bookgames:challenge challenges append value {"name":"Just One Bit","difficulty":'{"text":"Hard","color":"dark_purple"}',"location":"hard/nth_bit","code":["a:","DS","0","b:","DS","0","start:"]}
+data modify storage bookgames:challenge challenges append value {"name":"Sorting Numbers","difficulty":'{"text":"Hard","color":"dark_purple"}',"location":"hard/sort_array","code":["array:","DS","0","DS","0","DS","0","DS","0","DS","0","DS","0","start:"]}
 data modify storage bookgames:challenge challenges append value {"name":"Follow The Line","difficulty":'{"text":"Hard","color":"dark_purple"}',"location":"hard/follow_line","code":[]}
 
 

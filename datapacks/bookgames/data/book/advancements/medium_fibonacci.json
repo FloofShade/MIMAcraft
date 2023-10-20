@@ -4,7 +4,7 @@
             "text": "The Fibonacci Sequence"
         },
         "description": {
-            "text": "Print out the first few values of the Fibonacci sequence."
+            "text": "Store the first few values of the Fibonacci sequence in memory."
         },
         "icon": {
             "item": "minecraft:sugar_cane"

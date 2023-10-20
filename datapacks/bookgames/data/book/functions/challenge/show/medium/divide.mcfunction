@@ -1,0 +1,2 @@
+tellraw @a [{"text":"---\n","color":"gray"},{"text":"Divided!","color":"gold"}]
+tellraw @a {"text":"§6Added Code§f\n§ba: §60 §f| §7DS [-50,50]\n§bb: §61 §f| §7DS [1,5]\n§bstart: §62\n\n§fTry calculating §6a/b (Division)§f.\n§cNOTE:§f The result should be in the §6ACC§f.","color":"white"}

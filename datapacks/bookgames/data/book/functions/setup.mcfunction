@@ -22,7 +22,7 @@ scoreboard players set #maxSteps calc 100
 scoreboard players set #area calc 0
 #challenges
 scoreboard players set #challenge calc 1
-scoreboard players set #max_challenge calc 22
+scoreboard players set #max_challenge calc 21
 scoreboard players set #tries calc 0
 function book:challenge/setup
 #gamerules
@@ -68,7 +68,7 @@ data modify storage bookgames:mima lookup.command.JIND set value {"value":136314
 # starting at 1111 0000
 data modify storage bookgames:mima lookup.command.HALT set value {"value":-1048576,"arg":0b}
 data modify storage bookgames:mima lookup.command.NOT set value {"value":-983040,"arg":0b}
-data modify storage bookgames:mima lookup.command.RAR set value {"value":-917504,"arg":0b}
+#data modify storage bookgames:mima lookup.command.RAR set value {"value":-917504,"arg":0b}
 
 data modify storage bookgames:mima lookup.command.PRINT set value {"value":-851968,"arg":0b}
 
@@ -97,7 +97,7 @@ data modify storage bookgames:mima lookup.op.13 set value {"function":"book:exec
 
 data modify storage bookgames:mima lookup.op.240 set value {"function":"book:execute/command/halt","flow":1b,"value":15728640,"name":"HALT",has_arg:0b}
 data modify storage bookgames:mima lookup.op.241 set value {"function":"book:execute/command/not","flow":0b,"value":15794176,"name":"NOT",has_arg:0b}
-data modify storage bookgames:mima lookup.op.242 set value {"function":"book:execute/command/rar","flow":0b,"value":15859712,"name":"RAR",has_arg:0b}
+#data modify storage bookgames:mima lookup.op.242 set value {"function":"book:execute/command/rar","flow":0b,"value":15859712,"name":"RAR",has_arg:0b}
 data modify storage bookgames:mima lookup.op.243 set value {"function":"book:execute/command/print","flow":0b,"value":15925248,"name":"PRINT",has_arg:0b}
 #bot commands
 data modify storage bookgames:mima lookup.op.244 set value {"function":"book:execute/command/brr","flow":0b,"value":15990784,"name":"BRR",has_arg:0b}
