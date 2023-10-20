@@ -1,0 +1,2 @@
+tellraw @a [{"text":"---\n","color":"gray"},{"text":"Feeling Loved","color":"gold"}]
+tellraw @a {"text":"Using the bot commands you can control one (or multiple) small robot(s) and make it do stuff.\nCheck the §6commands book§f inside your inventory to learn about the bot commands. Try letting the bot build this simple heart:\n\n█████\n█§c█§f█§c█§f█\n█§c███§f█\n██§c█§f██\n█████\n\n§cNOTE:§f The robot should be placed on top of the heart and the heart should face the menus.","color":"white"}

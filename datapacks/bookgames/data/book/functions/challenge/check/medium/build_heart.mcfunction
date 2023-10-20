@@ -1,0 +1,4 @@
+scoreboard players set #result calc 0
+execute at @e[type=armor_stand,tag=mima_bot] if block ~ ~-1 ~ minecraft:red_stained_glass if block ~1 ~ ~ minecraft:red_stained_glass if block ~-1 ~ ~ minecraft:red_stained_glass if block ~-1 ~-1 ~ minecraft:red_stained_glass if block ~1 ~-1 ~ minecraft:red_stained_glass if block ~ ~-2 ~ minecraft:red_stained_glass if block ~ ~ ~ minecraft:air if block ~1 ~-2 ~ minecraft:air if block ~-1 ~-2 ~ minecraft:air run scoreboard players set #result calc 1
+execute if score #result calc matches 1 run advancement grant @a only book:medium_build_heart
+execute if score #result calc matches 1 run scoreboard players set #challenge_success mima 1

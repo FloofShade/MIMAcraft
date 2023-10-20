@@ -1,0 +1,2 @@
+tellraw @a [{"text":"---\n","color":"gray"},{"text":"Automated Mining","color":"gold"}]
+tellraw @a {"text":"Try letting the bot mine a §61x2§f tunnel until there are no more blocks infront of it.","color":"white"}
