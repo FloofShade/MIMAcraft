@@ -1,4 +1,7 @@
 tellraw @a {"text":"Reloading MIMA Datapack!"}
+title @a title {"text":"Welcome","color":"aqua"}
+title @a subtitle {"text":"to MIMAcraft!","color":"aqua"}
+tellraw @a {"text":"Check the book in your inventory for more info!","color":"gold"}
 scoreboard objectives add calc dummy
 scoreboard objectives add mima dummy
 
